@@ -28,6 +28,11 @@ import {
 } from "react-router";
 import type { To } from "react-router";
 
+/**
+ * 
+ * @param cond boolean
+ * @param message string
+ */
 function warning(cond: boolean, message: string): void {
   if (!cond) {
     // eslint-disable-next-line no-console
